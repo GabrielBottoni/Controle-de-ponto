@@ -1,0 +1,175 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-image: url("/public/assets/backgroun-login.jpg"); 
+  background-size: cover;
+  background-position: center;
+}
+
+.formcontainer {
+  width: 450px;
+  background-color: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(10px);
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  padding: 40px;
+  border-radius: 10px;
+  text-shadow: #000 1px 1px; 
+}
+
+.formcontainer h1 {
+  text-align: center;
+  font-size: 30px;
+  color: #fff;
+}
+
+.inputField {
+  position: relative;
+  width: 100%;
+  height: 50px;
+  margin: 30px auto 30px;
+  text-shadow: none;
+  font-weight: 600;
+}
+
+.inputField input {
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+  outline: none;
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  border-radius: 40px;
+  font-size: 16px;
+  color: #fff;
+  padding: 20px 25px;
+  margin-top: 5px;
+}
+
+.inputField input::placeholder {
+  color: #fff;
+}
+
+.inputField .icon {
+  position: absolute;
+  right: 25px;
+  top: 60%;
+  transform: translateY(50%);
+  font-size: 18px;
+  color: #fff;
+}
+
+.recallForget {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14.5px;
+  margin: 35px 0 15px;
+}
+
+.recallForget label {
+  color: #fff;
+}
+
+.recallForget input {
+  margin-right: 5px;
+}
+
+.recallForget a,
+.signupLink p a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.recallForget a:hover,
+.signupLink p a:hover {
+  text-decoration: underline;
+}
+
+.submitButton {
+  width: 35%;
+  height: 50px;
+  background-color: #fff;
+  border: none;
+  outline: none;
+  border-radius: 40px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 600;
+  margin-top: 10px;
+}
+
+.signupLink {
+  font-size: 15px !important;
+  text-align: center !important;
+  margin: 20px 0 10px !important;
+  font-weight: 300 !important;
+  }
+
+.formButtonsContainer {
+  display: flex; 
+  justify-content: space-between; 
+  gap: 20px; 
+  width: 100%;
+  text-shadow: none;
+}
+
+
+.submitRegistro {
+  width: 40%;
+  height: 50px;
+  background-color: #fff;
+  border: none;
+  outline: none;
+  border-radius: 40px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 600;
+  margin-top: 10px;
+}
+
+.voltarLink {
+  display: inline-block;
+  width: 40%; 
+  height: 50px;
+  background-color: #fff;
+  border: none;
+  outline: none;
+  border-radius: 40px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 600;
+  text-align: center;
+  line-height: 50px;
+  text-decoration: none;
+  color: inherit;
+  margin-top: 10px;
+}
+
+
+.voltarLink:hover {
+  background-color: #f0f0f0;
+  color: #000;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

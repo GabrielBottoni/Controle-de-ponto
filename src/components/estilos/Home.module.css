@@ -1,0 +1,236 @@
+@media (max-width: 800px) {
+  .table-container {
+    font-size: 0.9em; /* Reduz o tamanho da fonte em telas menores */
+  }
+
+  th, td {
+    padding: 8px; /* Diminui o padding nas células */
+  }
+}
+
+/* Estilo geral do container principal */
+.mainContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  min-height: 100vh;
+  box-sizing: border-box;
+  background-color: #dbecff; /* Cor de fundo */
+  color: #fff;
+}
+
+.navFoot {
+  background-color: #4f98d8;
+  padding: 20px;
+}
+
+/* Navbar */
+.navbar p {
+  padding: 10px 20px;
+  color: #fff;
+  font-weight: 600;
+  font-size: 25px;
+}
+
+.navContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navTitle {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: white;
+}
+
+.userIcon {
+  font-size: 1.5rem;
+  margin-right: 10px;
+}
+
+.voltarLink {
+  padding: 10px 20px;
+  background-color: #fff;
+  color: #000;
+  border-radius: 20px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.voltarLink:hover {
+  background-color: #f0f0f0;
+  color: #000;
+}
+
+/* Conteúdo principal */
+.content {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  margin: 2rem auto;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+/* Formulário */
+.formcontainer {
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.776);
+  backdrop-filter: blur(10px);
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  padding: 30px;
+  border-radius: 10px;
+  color: #0e7ac3;
+  font-weight: 600;
+  font-size: 18px;
+  box-shadow: 0 8px 10px rgba(0, 0, 0, 0.2), 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.formcontainer h1 {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #5a9eda;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);
+}
+
+.formcontainer .form-label {
+  color: #5a9eda;
+}
+
+.formcontainer .btn-primary {
+  background-color: #5a9eda;
+  border: none;
+  border-radius: 40px;
+  font-weight: 600;
+  padding: 10px 0;
+  transition: background-color 0.3s ease;
+}
+
+.formcontainer .btn-primary:hover {
+  background-color: #0056b3;
+}
+
+/* Relatório */
+.formtablecontainer {
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.776);
+  backdrop-filter: blur(10px);
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  padding: 30px;
+  border-radius: 10px;
+  color: #0e7ac3;
+  font-weight: 600;
+  font-size: 18px;
+  box-shadow: 0 8px 10px rgba(0, 0, 0, 0.2), 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.formtablecontainer h1 {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #5a9eda;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);
+}
+
+.formtablecontainer .form-label {
+  color: #5a9eda;
+}
+
+.formtablecontainer .btn-primary {
+  background-color: #5a9eda;
+  border: none;
+  border-radius: 40px;
+  font-weight: 600;
+  padding: 10px 0;
+  transition: background-color 0.3s ease;
+}
+
+.formtablecontainer .btn-primary:hover {
+  background-color: #0056b3;
+}
+
+/* Tabela */
+.table {
+  background-color: rgba(255, 255, 255, 0.9);
+  color: #333;
+}
+
+.table thead th {
+  background-color: #d2e8ff;
+  color: #fff;
+}
+
+.table tbody tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.table tbody tr:hover {
+  background-color: rgba(0, 123, 255, 0.1);
+}
+
+/* Contêiner da Tabela */
+.table-container {
+  width: 100%;
+  overflow-x: auto; /* Habilita rolagem horizontal quando necessário */
+  -webkit-overflow-scrolling: touch; /* Suporte a rolagem suave em dispositivos móveis */
+  margin: 20px 0; /* Espaçamento */
+}
+
+table {
+  width: 100%; /* Garante que a tabela ocupe toda a largura disponível */
+  table-layout: fixed; /* Previne que a tabela se estique demais */
+  border-collapse: collapse; /* Remove espaços entre as células */
+}
+
+th, td {
+  padding: 10px;
+  word-wrap: break-word; /* Permite quebra de palavras para ajustar o conteúdo */
+  text-align: left;
+  white-space: nowrap; /* Evita quebras inesperadas */
+  overflow: hidden; /* Oculta qualquer conteúdo que ultrapasse os limites da célula */
+  text-overflow: ellipsis; /* Exibe '...' quando o conteúdo for longo */
+  min-width: 150px; /* Garante uma largura mínima para as células */
+}
+
+/* Botões e links */
+.voltarLink {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #fff;
+  color: #000;
+  border-radius: 40px;
+  border: none;
+  text-decoration: none;
+  font-weight: 600;
+  text-align: center;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.voltarLink:hover {
+  background-color: #f0f0f0;
+}
+
+.submitButton {
+  width: 65%;
+  height: 50px;
+  background-color: #fff;
+  border: none;
+  outline: none;
+  border-radius: 40px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+/* Footer */
+footer {
+  color: #fff;
+  text-align: center;
+  padding: 1rem 0;
+}
