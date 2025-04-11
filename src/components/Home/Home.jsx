@@ -139,7 +139,7 @@ const Home = () => {
               </div>
               <div className="mb-3">
                 <label htmlFor="pausa" className="form-label">
-                  Horário de pausa:
+                  Tempo de pausa:
                 </label>
                 <input
                   type="time"
